@@ -23,6 +23,7 @@ public class Main {
 		System.out.println(t);
 		
 		practice2.display();
+		System.out.println("github에서 수정함")
 	
 	}
 }
