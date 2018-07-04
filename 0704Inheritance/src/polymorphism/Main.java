@@ -21,7 +21,7 @@ public class Main {
 		
 		//오버라이딩 된 메소드는 변수를 선언할 때 사용한 자료형이 아니라
 		//인스턴스를 만들어서 대입할 때 사용한 자료형의 것을 호출합니다.
-		Super obj = new Sub();
+		Super obj = new Super();
 		obj.display();
 		
 		obj = new Sub();
