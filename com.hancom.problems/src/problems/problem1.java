@@ -1,4 +1,4 @@
-package problem1;
+package problems;
 
 import java.util.Scanner;
 
@@ -8,6 +8,7 @@ public class problem1 {
 
 		int idx = 0;
 		Scanner sc = new Scanner(System.in);
+		System.out.print("라인 수를 입력하세요 : ");
 		int NUM = sc.nextInt();
 			
 		// ----------------------------------------------------- 전체 for		
@@ -30,7 +31,7 @@ public class problem1 {
 			}
 			
 			// ------------------------------------------------- 마지막 줄
-			if (i == (NUM-1)) {
+			else if (i == (NUM-1)) {
 				for (j = 0; j < 2 * i; j = j + 1) {
 					System.out.print(idx % 10);
 					idx = idx + 1;
